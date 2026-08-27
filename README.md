@@ -15,7 +15,7 @@ Click here to add these patches to Morphe: <https://morphe.software/add-source?g
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.1-dev.1](https://github.com/jaredcat/morphe-patches/releases/tag/v1.0.1-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+> **[v1.0.1](https://github.com/jaredcat/morphe-patches/releases/tag/v1.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
 <details open>
 <summary>📦 Expand&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
