@@ -62,6 +62,35 @@
     },
     {
       "name": "Unlock Premium",
+      "description": "Unlocks ASL Bloom Premium lessons and features.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.toleio.us",
+          "name": "ASL Bloom",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#232A63",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.36.63",
+              "versionCodes": {
+                "ARM64_V8A": 871,
+                "ARMEABI_V7A": 871
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": "Use the XAPK matching your device architecture."
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock Premium",
       "description": "Unlocks Lumenate Premium without a subscription.",
       "default": true,
       "dependencies": [],
