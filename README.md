@@ -15,7 +15,7 @@ Click here to add these patches to Morphe: <https://morphe.software/add-source?g
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.1.0](https://github.com/jaredcat/morphe-patches/releases/tag/v1.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
+> **[v1.2.0](https://github.com/jaredcat/morphe-patches/releases/tag/v1.2.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;5 patches total
 <details open>
 <summary>📦 Expand&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
@@ -62,6 +62,22 @@ Click here to add these patches to Morphe: <https://morphe.software/add-source?g
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Unlock Premium](#unlock-premium) | Unlocks Lumenate Premium without a subscription. |  |
+
+</details>
+
+<details open>
+<summary>📦 Sweepy&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 6.1.3 |
+| :---: |
+| Patch the device split APKs (base + arm64 + locale + density) or an APKS/APKM matching this version. |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Unlock Premium](#unlock-premium) | Unlocks Sweepy Premium features. |  |
 
 </details>
 
