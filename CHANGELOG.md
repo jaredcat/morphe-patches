@@ -1,3 +1,9 @@
+## [1.3.0](https://github.com/jaredcat/morphe-patches/compare/v1.2.0...v1.3.0) (2026-09-24)
+
+### ✨ New Features
+
+* add OfferUp Hide Ads for 2026.38.0 ([4975f35](https://github.com/jaredcat/morphe-patches/commit/4975f35ec398f59f646c1828041b4fea708228e0))
+
 ## [1.2.0](https://github.com/jaredcat/morphe-patches/compare/v1.1.0...v1.2.0) (2026-09-24)
 
 ### ✨ New Features
