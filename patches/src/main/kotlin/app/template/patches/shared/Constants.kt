@@ -67,6 +67,34 @@ object Constants {
     )
 
     /**
+     * OfferUp — split APK from Play Store / device (base + arm64 + en + xxhdpi).
+     * Ad code lives in the base DEX (`com.offerup.ads`), so patch the merged/base APK.
+     *
+     * Resigning (any Morphe patch) invalidates the Play-signed Maps API key, so the
+     * in-app map embed breaks. Warned via [Compatibility.description] for all OfferUp patches.
+     */
+    val COMPATIBILITY_OFFERUP = Compatibility(
+        name = "OfferUp",
+        packageName = "com.offerup",
+        description = "Warning: patching OfferUp resigns the APK, so the listing map embed " +
+            "stops working (Google Maps API key is tied to the Play Store signature).",
+        apkFileType = ApkFileType.APKS,
+        appIconColor = 0x00A87E,
+        signatures = setOf(
+            "b030bf5c258015aacf92c0c8e3c4f3c6ae17cdc6c4d4f1dd7686b78145aacb23",
+        ),
+        targets = listOf(
+            AppTarget(
+                version = "2026.38.0",
+                versionCodes = mapOf(SupportedAbi.ARM64_V8A to 2026380003),
+                description = "Patch the device split APKs (base + arm64 + en + xxhdpi) " +
+                    "or an APKS/APKM matching this version. Listing map embed will not work " +
+                    "after install (resigning breaks the Maps API key).",
+            ),
+        ),
+    )
+
+    /**
      * Sweepy — split APK pulled from Play Store (base + arm64 + locale + density).
      * Premium gates live in the embedded Hermes v96 bundle.
      */
