@@ -65,4 +65,26 @@ object Constants {
             ),
         ),
     )
+
+    /**
+     * Sweepy — split APK pulled from Play Store (base + arm64 + locale + density).
+     * Premium gates live in the embedded Hermes v96 bundle.
+     */
+    val COMPATIBILITY_SWEEPY = Compatibility(
+        name = "Sweepy",
+        packageName = "app.sweepy.sweepy",
+        apkFileType = ApkFileType.APKS,
+        appIconColor = 0x2FC7FF,
+        signatures = setOf(
+            "817b52b22fd3dc5583ac3302f3754cdccfd181f2ae9ba03b82f3755afd9db205",
+        ),
+        targets = listOf(
+            AppTarget(
+                version = "6.1.3",
+                versionCodes = mapOf(SupportedAbi.ARM64_V8A to 305),
+                description = "Patch the device split APKs (base + arm64 + locale + density) " +
+                    "or an APKS/APKM matching this version.",
+            ),
+        ),
+    )
 }
